@@ -4,4 +4,19 @@
     height:15vh ;
     padding:1rem;
     margin: 1rem;
+
+    
+}
+
+.output{
+    border : 2px solid black;
+    width: 90%;
+    height: 15vh;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.op-txt{
+    font-weight: bold;
+    padding:1rem;
 }
