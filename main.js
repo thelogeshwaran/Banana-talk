@@ -8,7 +8,7 @@ var outputDiv = document.querySelector(".output")
 /** var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" */
 
 function getTransUrl(input){
-    var url =  serverUrl + "?" +"text"+ input 
+    var url =  serverUrl + "?text"+ input 
     return url
 
 }
