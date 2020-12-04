@@ -11,9 +11,7 @@ function getTranslationURL(input) {
     return serverURL + "?" + "text=" + input
 }
 
-function errorHandler(error) {
-    alert("Something wrong with server! Try again after some time")
-}
+
 
 
 function clickHandler() {
@@ -29,4 +27,8 @@ function clickHandler() {
         .catch(errorHandler)
 };
 
+function errorHandler(error){
+    console.log(error)
+    alert("something wrong in the server.Try again sometime")
+}
 btnTranslate.addEventListener("click", clickHandler)
