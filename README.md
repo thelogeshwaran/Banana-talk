@@ -1,4 +1,4 @@
-# MINION TRANSLATOR
+# BANANA TALK
 
 # Getting started
 
